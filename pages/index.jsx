@@ -1,7 +1,7 @@
 import Dummy from "@/components/Dummy";
 import Link from "next/link";
 
-export default () => {
+const Home = () => {
   const PageComponent = () => {
     return <h2>this is a page component from home page</h2>;
   };
@@ -19,6 +19,8 @@ export default () => {
     </>
   );
 };
+
+export default Home;
 
 /*
 
