@@ -8,5 +8,15 @@ h1 {
 }
 
 h2 {
-  color: crimson;
+  color: lightsalmon;
+}
+
+.generic { 
+  color: blanchedalmond;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.generic *{
+  color: springgreen;
 }
