@@ -1,5 +1,5 @@
 const Dummy = () => {
-  return <> this is Dummy component form components folder</>;
+  return <> this is Dummy component from components folder</>;
 };
 
 export default Dummy;
