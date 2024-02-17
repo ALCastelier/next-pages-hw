@@ -8,12 +8,23 @@ export default Dummy;
 
 /*
 
-const Dummy = () => {
-  return <>THIS IS AN EMPTY COMPONENT</>;
-};
+// exemple de composant react
+// comme toutes les fonctions-composants react, le nom doit doit vommencer par une lettre majuscule
+// il est recommdé d'utiliser un nom qui puisse facilement être associé au nom du fichier voie prendre de même nom
+// par exemple si le composant s'appelle Bidule.jsx alors la la fonction pourrait s'appeller Bidule
 
-export default Dummy;
+
+
+const NomDuComposantAvecUneLettreMajusculeAuDepart =  () => {
+  return (
+    <>
+      Cette fonction ne fait pas grand chose, elle affice cette phrase
+    </>
+  );
 }
+
+export default NomDuComposantAvecUneLettreMajusculeAuDepart;
+
 
 
 
