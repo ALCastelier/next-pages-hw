@@ -1,5 +1,9 @@
 const Dummy = () => {
-  return <> this is Dummy component from components folder</>;
+  return (
+  <>
+  <h3> this is Dummy component from components folder made by AL</h3>
+  </>
+  )
 };
 
 export default Dummy;

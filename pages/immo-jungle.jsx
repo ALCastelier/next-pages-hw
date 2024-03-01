@@ -1,32 +1,25 @@
-import Dummy from "@/components/Dummy";
 import Link from "next/link";
 
-const Index = () => {
-  const PageComponent = () => {
-    return (
-      <>
-        <h2>this is a page component from home page modified by AL</h2>;
-      </>
-    )
-  };
+const ImmoJungle = () => {
 
   return (
     <>
-      <h1> Hello World! this is the Home page</h1>
-      <PageComponent />
-      <div className="generic">
-        <Dummy />
+      <h1> immo jungle </h1>
+      <div className="">
+
+
+
+        
       </div>
       <div className="generic">
-        <Link href="/other-page">other page</Link>
-        <h3></h3>
-        <Link href="/immo-jungle">immo jungle</Link>
+        <Link href="/">Home page</Link>
       </div>
     </>
   );
 };
 
-export default Index;
+export default ImmoJungle;
+
 
 /*
 
