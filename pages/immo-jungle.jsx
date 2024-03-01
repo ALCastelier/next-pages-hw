@@ -5,12 +5,38 @@ const ImmoJungle = () => {
   return (
     <>
       <h1> immo jungle </h1>
-      <div className="">
 
+      <div className="cadre">
+        <div className="navbar">
+          <div className="navbarItem"></div>
+          <div className="navbarItem"></div>
+          <div className="navbarItem"></div>
 
-
-        
+        </div>
+        <div className="niveau1">
+          <div className="sidebar">
+            <div className="sidebarItem"></div>
+            <div className="sidebarItem"></div>
+            <div className="sidebarItem"></div>
+          </div>
+          <div className="niveau2">
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+          </div>
+        </div>
       </div>
+
       <div className="generic">
         <Link href="/">Home page</Link>
       </div>
@@ -19,6 +45,43 @@ const ImmoJungle = () => {
 };
 
 export default ImmoJungle;
+
+
+/*
+
+    <div className="cadre">
+        <div className="navbar">
+            <div className="navbarItem"></div>
+            <div className="navbarItem"></div>
+            <div className="navbarItem"></div>
+
+        </div>
+        <div className="niveau1">
+            <div className="sidebar">
+                <div className="sidebarItem"></div>
+                <div className="sidebarItem"></div>
+                <div className="sidebarItem"></div>
+            </div>
+            <div className="niveau2">
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+                <div className="niveau3"></div>
+            </div>
+        </div>
+    </div>
+
+*/
+
 
 
 /*
