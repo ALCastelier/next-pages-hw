@@ -1,4 +1,7 @@
 import Dummy from "@/components/Dummy";
+import NavBarItem from "@/components/NavBarItem";
+import SideBarItem from "@/components/SideBarItem";
+import Niveau3 from "@/components/Niveau3";
 import Link from "next/link";
 
 const Index = () => {
@@ -16,6 +19,15 @@ const Index = () => {
       <PageComponent />
       <div className="generic">
         <Dummy />
+      </div>
+      <div className="generic">
+        <NavBarItem />
+      </div>
+      <div className="generic">
+        <SideBarItem />
+      </div>
+      <div className="generic">
+        <Niveau3 />
       </div>
       <div className="generic">
         <Link href="/other-page">other page</Link>
