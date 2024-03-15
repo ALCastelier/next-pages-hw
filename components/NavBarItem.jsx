@@ -1,11 +1,10 @@
 const NavBarItem = () => {
-    return (
+  return (
     <>
-    <h3> this is NavBarItem component from components folder made by AL</h3>
+      <h3>  </h3>
     </>
-    )
-  };
-  
-  export default NavBarItem;
-  
-  
+  )
+};
+
+export default NavBarItem;
+
