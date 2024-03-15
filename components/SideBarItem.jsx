@@ -1,12 +1,11 @@
 const SideBarItem = () => {
-    return (
+  return (
     <>
-    <h3> this is SideBarItem component from components folder made by AL</h3>
+      <h3>   </h3>
     </>
-    )
-  };
-  
-  export default SideBarItem;
-  
-  
-  
+  )
+};
+
+export default SideBarItem;
+
+

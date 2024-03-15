@@ -44,11 +44,13 @@ h2 {
 
 }
 
-.navbarItem {
-  border: 0.2rem solid lightgrey;
+.navbaritem {
+  border: 0.2rem solid blue;
   width: 15rem;
   height: 3rem;
 }
+
+
 
 .niveau1 {
   display: flex;
@@ -61,12 +63,13 @@ h2 {
 .sidebar {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border: 0.2rem solid green;
   padding: 0.5rem;
   width: 15%;
 }
 
-.sidebarItem {
+.sidebaritem {
   border: 0.2rem solid lightgrey;
   width: 90%;
   height: 3rem;

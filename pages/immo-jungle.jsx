@@ -1,4 +1,8 @@
+import NavBarItem from "@/components/NavBarItem";
+import SideBarItem from "@/components/SideBarItem";
+import Niveau3 from "@/components/Niveau3";
 import Link from "next/link";
+
 
 const ImmoJungle = () => {
 
@@ -8,31 +12,53 @@ const ImmoJungle = () => {
 
       <div className="cadre">
         <div className="navbar">
-          <div className="navbarItem"></div>
-          <div className="navbarItem"></div>
-          <div className="navbarItem"></div>
-
+          <div className="navbaritem">
+            <NavBarItem />
+          </div>
+          <div className="navbaritem">
+            <NavBarItem />
+          </div>
+          <div className="navbaritem">
+            <NavBarItem />
+          </div>
         </div>
         <div className="niveau1">
           <div className="sidebar">
-            <div className="sidebarItem"></div>
-            <div className="sidebarItem"></div>
-            <div className="sidebarItem"></div>
+            <div className="sidebaritem" >
+              <SideBarItem />
+            </div>
+            <div className="sidebaritem">
+              <SideBarItem />
+            </div>
+            <div className="sidebaritem">
+              <SideBarItem />
+            </div>
           </div>
           <div className="niveau2">
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
-            <div className="niveau3"></div>
+            <div className="niveau3">
+              <Niveau3 />
+            </div>
+            <div className="niveau3">
+              <Niveau3 />
+            </div>
+            <div className="niveau3">
+              <Niveau3 />
+            </div>
+            <div className="niveau3">
+              <Niveau3 />
+            </div>
+            <div className="niveau3">
+              <Niveau3 />
+            </div>
+            <div className="niveau3">
+              <Niveau3 />
+            </div>
+            <div className="niveau3">
+              <Niveau3 />
+            </div>
+            <div className="niveau3">
+              <Niveau3 />
+            </div>
           </div>
         </div>
       </div>

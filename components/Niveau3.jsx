@@ -1,11 +1,10 @@
 const Niveau3 = () => {
-    return (
+  return (
     <>
-    <h3> this is Niveau3 component from components folder made by AL</h3>
+      <h3>    </h3>
     </>
-    )
-  };
-  
-  export default Niveau3;
-  
-  
+  )
+};
+
+export default Niveau3;
+
