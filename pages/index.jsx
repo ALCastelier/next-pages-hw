@@ -17,23 +17,23 @@ const Index = () => {
     <>
       <h1> Hello World! this is the Home page</h1>
       <PageComponent />
-      <div className="generic">
-        <Dummy />
-      </div>
-      <div className="generic">
+      <>
+              <Dummy />
+      </>
+      <>
         <NavBarItem />
-      </div>
-      <div className="generic">
+      </>
+      <>
         <SideBarItem />
-      </div>
-      <div className="generic">
+      </>
+      <>
         <Niveau3 />
-      </div>
-      <div className="generic">
+      </>
+      <>
         <Link href="/other-page">other page</Link>
         <h3></h3>
         <Link href="/immo-jungle">immo jungle</Link>
-      </div>
+      </>
     </>
   );
 };
