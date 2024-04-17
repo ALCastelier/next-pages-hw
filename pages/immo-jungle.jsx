@@ -12,42 +12,36 @@ const ImmoJungle = () => {
 
       <div className="cadre">
         <div className="navbar">
-          <>
+    
             <NavBarItem />
         
             <NavBarItem />
        
             <NavBarItem />
-          </>
+        
         </div>
         <div className="niveau1">
           <div className="sidebar">
-            <>
+          
               <SideBarItem />
          
               <SideBarItem />
           
               <SideBarItem />
-            </>
+          
           </div>
           <div className="niveau2">
 
-            <>
-              <Niveau3>
-              </Niveau3>
+          
+              <Niveau3 />
+              
+              <Niveau3 />
 
               
-              <Niveau3>
-              </Niveau3>
-
+              <Niveau3 />
               
-              <Niveau3>
-              </Niveau3>
-
-              
-              <Niveau3>
-              </Niveau3>
-            </>
+              <Niveau3 />
+    
           </div>
         </div>
       </div>
