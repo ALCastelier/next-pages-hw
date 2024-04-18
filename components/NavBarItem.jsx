@@ -1,7 +1,7 @@
 const NavBarItem = () => {
   return (
     <>
-      <h3> test text </h3>
+      <h3></h3>
     </>
   )
 };

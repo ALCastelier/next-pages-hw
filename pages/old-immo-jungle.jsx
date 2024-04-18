@@ -1,39 +1,36 @@
-import NavBarItem from "@/components/NavBarItem";
-import SideBarItem from "@/components/SideBarItem";
-import Niveau3 from "@/components/Niveau3";
 import Link from "next/link";
 
-
-const ImmoJungle = () => {
-
+const OldImmoJungle = () => {
   return (
     <>
       <h1> immo jungle </h1>
 
       <div className="cadre">
         <div className="navbar">
-          <NavBarItem />
-          <NavBarItem />
-          <NavBarItem />
+          <div className="navbarItem"></div>
+          <div className="navbarItem"></div>
+          <div className="navbarItem"></div>
         </div>
         <div className="niveau1">
           <div className="sidebar">
-            <SideBarItem />
-            <SideBarItem />
-            <SideBarItem />
+            <div className="sidebarItem"></div>
+            <div className="sidebarItem"></div>
+            <div className="sidebarItem"></div>
           </div>
           <div className="niveau2">
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
+            <div className="niveau3"></div>
           </div>
         </div>
       </div>
@@ -41,14 +38,13 @@ const ImmoJungle = () => {
       <div className="generic">
         <Link href="/">Home page</Link>
         <h4></h4>
-        <Link href="/old-immo-jungle">old immo jungle</Link>
+        <Link href="/immo-jungle">immo jungle</Link>
       </div>
     </>
   );
 };
 
-export default ImmoJungle;
-
+export default OldImmoJungle;
 
 /*
 
@@ -84,8 +80,6 @@ export default ImmoJungle;
     </div>
 
 */
-
-
 
 /*
 
