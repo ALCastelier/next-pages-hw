@@ -1,3 +1,4 @@
+
 body {
   background-color: #222;
   color: white;
@@ -7,24 +8,23 @@ h1 {
   color: crimson;
 }
 
-h2 {
+h2{
   color: lightsalmon;
 }
-
-h3 {
+/*
+h3{
   color: lightsalmon;
-  border: 0.2rem solid lightgrey;
-  padding: 4rem;
+  padding: 4remrem;
   margin: 2rem;
-}
+}*/
 
-.generic {
+.generic { 
   color: blanchedalmond;
   margin-top: 3rem;
   font-size: 2rem;
 }
 
-.generic * {
+.generic *{
   color: springgreen;
 }
 
@@ -51,7 +51,7 @@ h3 {
 
 }
 
-.navbarItem {
+.navbarItem{
   border: 0.2rem solid lightgrey;
   width: 15rem;
   height: 10rem;
@@ -77,7 +77,7 @@ h3 {
   width: 15%;
 }
 
-.sidebarItem {
+.sidebarItem{
   border: 0.2rem solid lightgrey;
   width: 90%;
   height: 3rem;
@@ -94,8 +94,23 @@ h3 {
 }
 
 .niveau3 {
-  border: 0.2rem solid lightgrey;
+  border: 0.2rem solid green;
   width: 15rem;
   height: 10rem;
   margin: 1rem;
 }
+
+/*
+.NavBarItem
+
+
+.SideBarItem
+
+
+.Niveau3{
+  width: 15rem;
+  height: 10rem;
+  margin: 1rem;
+}
+
+*/
