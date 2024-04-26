@@ -1,11 +1,7 @@
-import React from "react";
-
 import NavBarItem from "@/components/NavBarItem";
 import SideBarItem from "@/components/SideBarItem";
 import Niveau3 from "@/components/Niveau3";
-import Niveau4 from "@/components/Niveau4";
 import Link from "next/link";
-
 
 
 const ImmoJungle = () => {
@@ -27,7 +23,7 @@ const ImmoJungle = () => {
             <SideBarItem />
           </div>
           <div className="niveau2">
-            <Niveau4 />
+            <Niveau3 />
             <Niveau3 />
             <Niveau3 />
             <Niveau3 />
