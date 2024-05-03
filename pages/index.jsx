@@ -1,10 +1,9 @@
 import React from "react";
 import Dummy from "@/components/Dummy";
-/*
 import NavBarItem from "@/components/NavBarItem";
 import SideBarItem from "@/components/SideBarItem";
 import Niveau3 from "@/components/Niveau3";
-import Niveau4 from "@/components/ImmoJungleBisInternal";*/
+import ImmoJungleBisInternal from "@/components/ImmoJungleBisInternal";
 import Link from "next/link";
 
 const Index = () => {
