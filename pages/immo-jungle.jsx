@@ -1,5 +1,3 @@
-import React from "react";
-
 import NavBarItem from "@/components/NavBarItem";
 import SideBarItem from "@/components/SideBarItem";
 import Niveau3 from "@/components/Niveau3";
@@ -121,5 +119,10 @@ export default NomDeLaPageCouranteAvecUneLettreMajusculeAuDepart;
 
 
 
+        <NavBar>
+          <NavBarItem />
+          <NavBarItem />
+          <NavBarItem />
+        </Navbar>
 
 */

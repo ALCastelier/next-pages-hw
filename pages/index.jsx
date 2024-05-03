@@ -10,7 +10,7 @@ const Index = () => {
   const PageComponent = () => {
     return (
       <>
-        <h2>this is a page component from home page modified by AL</h2>;
+        <h2>this is a page component from home page modified by AL</h2>
       </>
     )
   };
@@ -27,7 +27,9 @@ const Index = () => {
         <Link href="/other-page">other page</Link>
         <h3></h3>
         <Link href="/immo-jungle">immo jungle</Link>
-      </div>*/
+        <h3></h3>
+        <Link href="/immo-jungle-bis">immo jungle Bis</Link>
+      </div>
     </>
   );
 };

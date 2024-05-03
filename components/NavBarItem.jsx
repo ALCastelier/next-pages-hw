@@ -1,9 +1,15 @@
-const NavBarItem = () => {
+function NavBarItem  () {
   return (
     <>
-      <h3  style={{border:  "0.2rem solid  lightgrey" ,   width: "15rem;", height: "10rem", margin:"1rem", }} ></h3>
+          <div className="navbarItem"></div>
     </>
   )
 };
 
 export default NavBarItem;
+
+/*
+function normalSayHello(name) {
+  return ("hello " + name );
+}
+*/
