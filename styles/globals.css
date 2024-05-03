@@ -100,25 +100,20 @@ h3{
   margin: 1rem;
 }
 
-
-.Niveau4 {
-  border: 0.2rem solid cyan;
-  width: 15rem;
-  height: 10rem;
-  margin: 1rem;
-}
-
 /*
-.NavBarItem
+.Niveau4 {
+    border: 0.2rem solid cyan;
+    width: 15rem;
+    height: 10rem;
+    margin: 1rem;
+  }
 
+.NavBarItem
 
 .SideBarItem
 
-
-
 .niveau4{
   border: 0.2rem solid cyan;
-
   width: 15rem;
   height: 10rem;
   margin: 1rem;

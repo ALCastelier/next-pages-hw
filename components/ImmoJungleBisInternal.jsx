@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Niveau4 = () => {
+const ImmoJungleBisInternal = () => {
   return (
     <>
       <h1>Niveau4 </h1>
@@ -18,4 +18,4 @@ const Niveau4 = () => {
   );
 };
 
-export default Niveau4;
+export default ImmoJungleBisInternal;
