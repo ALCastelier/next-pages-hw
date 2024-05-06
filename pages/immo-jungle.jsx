@@ -1,5 +1,8 @@
 import NavBarItem from "@/components/NavBarItem";
-import SideBarItem from "@/components/SideBarItem";
+import NavBar from "@/components/NavBar";
+import SideBarItem from "@/components/SideBarItem";import SideBar from "@/components/SideBar";
+
+import Niveau2 from "@/components/Niveau2";
 import Niveau3 from "@/components/Niveau3";
 import Link from "next/link";
 
@@ -12,32 +15,10 @@ const ImmoJungle = () => {
       <h1> immo jungle </h1>
 
       <div className="cadre">
-        <div className="navbar">
-          <NavBarItem />
-          <NavBarItem />
-          <NavBarItem />
-        </div>
+        <NavBar />
         <div className="niveau1">
-          <div className="sidebar">
-            <SideBarItem />
-            <SideBarItem />
-            <SideBarItem />
-          </div>
-          <div className="niveau2">
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-            <Niveau3 />
-          </div>
+          <SideBar />
+          <Niveau2 />
         </div>
       </div>
 
@@ -88,7 +69,7 @@ export default ImmoJungle;
 
 */
 
-
+/* <div className="niveau2"> */
 
 /*
 

@@ -1,7 +1,7 @@
-function NavBarItem  () {
+function NavBarItem() {
   return (
     <>
-          <div className="navbarItem"></div>
+      <div className="navbarItem"></div>
     </>
   )
 };
